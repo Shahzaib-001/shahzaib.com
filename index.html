@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back to Amazon</title>
+    <style>
+        .back{
+            color: rgb(0, 113, 133);
+            transition: font-display 0.15s;
+            cursor: pointer;
+        }
+        .back:hover{
+            font: optional;color: brown;
+        }
+        .in{
+            color: rgb(0, 118, 0);
+        }
+        .add{
+            background-color: rgb(255, 216, 20);
+            border: 1px solid rgb(255, 216, 20);
+            border-radius: 20px;
+            padding: 5px 25px;
+            cursor: pointer;
+            transition: background-color 0.15s;
+            transition: box-shadow 0.15s;
+        }
+        .add:hover{
+            background-color: lightgray;
+            opacity: 0.9;
+            border: 1px solid lightgray;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        .add:active{
+            background-color: lightgray;
+            opacity: 0.5;
+        }
+        .buy{
+            background-color: rgb(255, 164, 28);
+            border: 1px solid  rgb(255, 164, 28);
+            border-radius: 20px;
+            padding: 5px 25px;
+            margin-left: 10px;
+            cursor: pointer;
+            transition: background-color 0.15s;
+            transition: box-shadow 0.15s;
+        }
+        .buy:hover{
+            background-color: lightgray;
+            border: 1px solid lightgray;
+            opacity: 0.9;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        .buy:active{
+            background-color: lightgray;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+        <p><u>Back To Amazon</u></p> </div>
+        <h1>Nike Black Running Shoes</h1>
+        <div class="in">
+            <p>$39 - in stock.</p>
+        </div>
+        <p>Free delivery tomorrow.</p>
+            <button class="add">Add to Cart</button>
+            <button class="buy">Buy Now</button>
+</body>
+</html>
